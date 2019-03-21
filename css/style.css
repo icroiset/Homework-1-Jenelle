@@ -1,0 +1,82 @@
+
+h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 23px;
+    padding-bottom: 5px;
+}
+#logo-image {
+    width: 180px;
+}
+
+
+.container{
+    padding-top: 25px;
+}
+
+.recommended-view-projects-link{
+    margin-top: 25px; 
+}
+
+.recommended-project-column-divider {
+    border-bottom:1px solid #ccc;
+}
+
+.podcast{
+    font-family: 'Noto Serif', serif;
+}
+
+.podcast .zine h1{
+    font-weight: bold;
+}
+.podcast .zine p{
+    font-size: 15px;
+}
+
+.podcast .zine a {
+    font-size: 13px;
+}
+.green-line {
+    border-left: 10px solid green;
+    padding-left: 25px;
+}
+
+.fresh-finds h1{
+    font-size: 20px;
+}
+
+.fresh-finds p{
+    font-size: 12px;
+}
+.explore a:hover {
+    text-decoration: underline;
+}
+
+.explore h4:hover{
+    color: #0b6623;
+}
+
+.explore h3{
+    padding: 20px 0;
+    font-size: 13px
+    
+}
+.explore h4{
+    color: #282828;
+    font-family: Times New Roman serif;
+    font-size: 19px;
+    line-height: 23px;
+    padding: 15px 0;
+}
+
+.explore p{
+    font-size: 12px;
+    color: #656969; 
+}
+
+.explore{
+    padding-bottom: 50px;
+}

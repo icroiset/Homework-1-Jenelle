@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>2019 Kickstarter Clone</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="./css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+    
+    <style type = "text/css">
+      div {
+      /*border:1px solid red;*/
+      }
+
+      .detail {
+        color:#282828;
+        font-weight:600;
+      }
+      section#logo-section {
+        border-style:none;
+
+        margin-top:0px;
+        padding-top:25px;
+        padding-bottom:25px;
+
+
+      }
+    </style>
+  </head>
+    
+    <body> 
+    <!-- LOGO / HEADER -->
+    <section class="container" id="logo-section">
+      <div class="columns">
+        <!-- @TODO:  make a 4 column layout with kickstarter logo centered -->
+          <div class="column is-1">
+            <a href="#">Explore</a> 
+          </div>
+          <div class="column is-2">
+            <a href="#">Start a project</a> 
+          </div>
+          <div class="column has-text-centered">
+            <a href="# ">
+              <img id="logo-image" src="images/kickstarter-logo-color.png">
+            </a> 
+          </div>
+          <div class="column is-1 has-text-right">
+            <a href="#">Search <i class="fas fa-search "></i></a> 
+          </div>
+          <div class="column is-1">
+            <a href="#">Sign in</a> 
+          </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------>
+    <!-- MENU -->
+    <!-- see documentation for tabs: https://bulma.io/documentation/components/tabs/ -->
+    <section class="container">
+      <div class="tabs is-centered">
+        <ul>
+          <li> <a href="#"> Film </a> </li>
+          <li> <a href="#"> Arts </a> </li>
+          <li> <a href="#"> Design & Tech </a> </li>
+          <li> <a href="#"> Comics & Illustrations </a> </li>
+          <li> <a href="#"> Games </a> </li>
+          <li> <a href="#"> Food & Crafts </a> </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ------------------------------------>
+    <!-- featured projects / recommended -->
+
+    <section class="container">
+        <div class="columns">
+            <div class="column has-text-left">
+                <h3>FEATURED PROJECTS</h3>
+                <img src="images/bao.png">
+                <h1> School of Wok Boa Bun Kit</h1>
+                <p> Chef Jeremy Pang thinks its "boa time" you learned to make boa bun. This DIY  kit will get you started.</p>
+                <p> By Jeremy Pang</p>  
+            </div> <!-- //end feautered project --> 
+
+            <!-- recomended -->
+            <div class="column">
+                <h3> RECOMMENDED </h3>
+                
+                <!-- row 1-->
+                <div class="columns  recommended-project-column-divider">
+                    <div class="column">
+                        <img src="images/destiny-ny.png">
+                    </div>
+                     <div class="column is-6">
+                        <p class="recommended-project-name">She: A Visual ode to the visionart women</p>
+                        <p class="recommended-funding">144% funded</p>
+                        <p class="recommended-author">By Obvious State</p>
+                    </div>
+                     <div class="column has-text-right">
+                        <i class="far fa-heart "></i>
+                    </div>
+                </div><!-- end of columns sections --> 
+                    
+                <!-- row 2-->
+                <div class="columns  recommended-project-column-divider" >
+                    <div class="column">
+                        <img src="images/pound-project.png">
+                    </div>
+                     <div class="column is-6">
+                        <p class="recommended-project-name">Marginbox - Young Adult Subscription Book Box</p>
+                        <p class="recommended-funding">110% funded</p>
+                        <p class="recommended-author">By Cara Davis</p>
+                    </div>
+                     <div class="column has-text-right">
+                        <i class="far fa-heart "></i>
+                    </div>
+                </div><!-- end of columns sections --> 
+                
+                <!-- row 3-->
+                <div class="columns recommended-project-column-divider">
+                    <div class="column" >
+                        <img src="images/game-designers.png">
+                    </div>
+                     <div class="column is-6">
+                        <p class="recommended-project-name">Midtown Social: Fatastic Colors</p>
+                        <p class="recommended-funding">138% funded</p>
+                        <p class="recommended-author">By Midtown Social </p>
+                    </div>
+                     <div class="column has-text-right">
+                        <i class="far fa-heart "></i>
+                    </div>
+                 </div><!-- end of columns sections --> 
+                <div class="recommended-view-projects-link">
+                 <a href="#" >View More Projects</a>
+                </div>
+
+            </div><!-- end of recommended section--> 
+        </div><!-- end of both sections-->
+    </section>
+      
+    <!-- ------------------------------------>
+    <!-- a new podcast  -->
+
+    <section class="container podcast">
+        <div class="columns">
+            <div class="column">
+                <img src="images/podcast.png">
+            </div>
+            <div class="column">
+                <div class="green-line">
+                    <h1 class="podcast-header-text">A new podcast from Kickstarter</h1>
+                    <p class="podcast-desc">“Just the Beginning” features stories about how independent creators bring their ideas to life. The second episode is about finding your voice—both literally and creatively. 
+                    </p>
+                </div>
+                 <div class="recommended-view-projects-link">
+                 <a href="#" >View More Projects</a>
+                </div><!-- end of link -->
+            </div><!-- end of podcast paragraph --> 
+        </div><!-- end of podcast section-->
+    </section>
+      
+    <!-- ------------------------------------>
+    <!-- fresh favorites -->
+    
+    <section class="container fresh-finds">
+        <h3>FRESH FAVOURITES</h3>
+        <div class="columns">
+            <div class="column">
+                <img src="images/salvaged.png">
+                <h1>Given Swims</h1>
+                <p>The culmination of three years of performances about and IN East Austin pools</p>
+                <p>By Allison Orr</p>
+            </div>
+            <div class="column">
+                <img src="images/good-samar.png">
+                <h1>Who Is My Neighbor? The Story of the Good Samaritan.</h1>
+                <p>A photography book by Nancy Enderle and Stuart Stotts that tells the Good Samaritan story through the windows of Chartres Cathedral.</p>
+                <p>By Stuart Stotts</p>
+            </div>
+            <div class="column">
+                <img src="images/tiny-type.png">
+                <h1>Fiiiirst Volume 1</h1>
+                <p>Help make Fiiiirst - Volume1: a photobook which showcases image based discussions between authors photographers.</p>
+                <p>By Guillaume Toumasi</p>
+            </div>
+            <div class="column">
+                <img src="images/pound-project.png">
+                <h1>The Hour After Westerly</h1>
+                <p>A short film based on the story by Robert M. Coates starring Peter Jacobson and Shannyn Sossamon.</p>
+                <p>By Nate Bell</p>
+            </div>
+        </div>
+    </section>
+        
+
+    <!-- ------------------------------------>
+    <!-- zine/make100-->
+    <section class="container zine">
+        <div class="columns">
+            <div class="column">
+                <img src="images/zine-quest.png">
+                <div class="green-line">
+                    <h1 class="podcast-header-text">Zine Quest</h1>
+                    <p class="podcast-desc">Discover the arcana of RPG zines on Kickstarter. 
+                    </p>
+                </div>
+                 <div class="recommended-view-projects-link">
+                 <a href="#" >View projects</a>
+                </div><!-- end of link -->
+            </div><!-- end of zine post paragraph --> 
+            <div class="column">
+                <img src="images/make100.png">
+                <div class="green-line">
+                    <h1 class="podcast-header-text">Make 100</h1>
+                    <p class="zine-desc">Explore limited-edition artworks, comics, games, and more from independent creators on Kickstarter.
+                    </p>
+                </div>
+                 <div class="recommended-view-projects-link">
+                 <a href="#" >View projects</a>
+                </div><!-- end of link -->
+            </div> 
+        </div><!-- end of podcast section-->
+    </section>
+
+    <!-- ------------------------------------>
+    <!-- more to explore -->
+        
+    <section class="container explore">
+        <h3>MORE TO EXPLORE</h3>
+        <div class="columns">
+            <div class="column">
+                <a href="#">
+                    <img src="images/explore1.png">
+                    <h4>A New Life for Death by Audio Arcade</h4>
+                </a>
+                <a href="#">
+                    <p>Kickstater Magazine</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="#">
+                    <img src="images/explore2.png">
+                    <h4>How Mushrooms Can Grow — and Green — Your Product Development</h4>
+                </a>
+                <a href="#">
+                    <p>Kickstater Magazine</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="#">
+                    <img src="images/explore3.png">
+                    <h4>Geek out with new projects from Kwanza Osajyefo, the heroes of Vox Machina, and more</h4>
+                </a>
+                <a href="#">    
+                    <p>Kickstater Magazine</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="#" >
+                    <img src="images/explore4.png">
+                    <h4>In “BLACK,” Kwanza Osajyefo created a world where only Black people have superpowers. The sequel, “WHITE,” is about what happens when America finds out.</h4>
+                </a> 
+                <a href="#">
+                    <p>Kickstater Magazine</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------------>
+    <!-- footer menu -->
+    </body>
+</html>
